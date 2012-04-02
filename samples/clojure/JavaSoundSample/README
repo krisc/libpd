@@ -1,13 +1,8 @@
-# JavaSoundSample
-
-FIXME: write description
+This directory is a Clojure lein project for JavaSoundSample.
 
 ## Usage
 
-FIXME: write
-
-## License
-
-Copyright (C) 2012 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+1) Run 'make' at the root direcotry of  libpd project to produce 'libpdnative.so' in the lib/ folder.
+2) Create a folder 'native/' in this directory and copy 'libpdnative.so' into it. (Or, change the 'project.clj' to look for 'libpdnative.so' elsewhere)
+3) Run 'lein compile' in this directory.
+3) Run 'lein run'.
